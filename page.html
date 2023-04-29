@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cat.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Котик</h1>
+    <a href="./index.html" class="back">Вернуться назад</a>
+    <div class="info"></div>
+    <script>
+        console.log(location);
+        let id = location.search.split("=");
+        id = id[id.length - 1];
+        console.log(id);
+        const box = document.querySelector(".info");
+
+        let name = "mrProkaZol";
+        let path = `https://cats.petiteweb.dev/api/single/${name}`;
+
+        let pets = localStorage.getItem("band-cats");
+
+        fetch(`${path}/show/${id}`)
+            .then(res => {
+                if (res.ok) {
+                    return res.json()
+                }
+            })
+            .then(data => {
+                box.innerHTML = `
+                    <h2>${data.name}</h2>
+                    <div>${setAge(data.age)}</div>
+                    <div>${data.description}</div>
+                    <img src="${data.image}" alt="">
+
+                    `;
+
+                console.log(data);
+            })
+            function setAge(n) {
+            if (n % 100 < 11 || n % 100 > 14) {
+                if (n % 10 === 1) {
+                    return n + " год";
+                } else if (n % 10 >= 2 && n % 10 <= 4) {
+                    return n + " года";
+                }
+                return n + " лет";
+            }
+            return n + " лет";
+}    
+    </script>
+    
+</body>
+</html>

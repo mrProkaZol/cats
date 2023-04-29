@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+.wrapper {
+    min-height: 100vh;
+    /* background-color: beige; */
+    padding: 30px;
+    margin: auto;
+    max-width: 1020px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-content: flex-start;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px springgreen, 0 0 5px #0008;
+    position: relative;
+}
+.card .like {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    color: red;
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+}
+
+.card .btn_delete {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    color: rgb(70, 0, 100);
+    cursor: pointer;
+}
+.like:hover {
+    transform: scale(1.8, 1.8);
+}
+
+
+.card .pic {
+    height: 150px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: springgreen;
+    background-image: url(https://thumbs.dreamstime.com/b/cute-raccoon-5994655.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pic.tmp {
+    /* background-image: url(images/default.png); */
+    background-image: url(https://www.24petwatch.com/adobe/dynamicmedia/deliver/dm-aid--494fba93-e183-47b2-bc12-8e5072be390a/24petwatch-hero-web.png);
+    /* background-size: contain; */
+    background-size: auto 80%;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
+.btn {
+    outline: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn:hover {
+    color: springgreen;
+<<<<<<< HEAD
+    transform: scale(1.1, 1.1);    
+}
+=======
+    transform: scale(1.1, 1.1);
+}
+
+>>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
+.add {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
+.modal-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+<<<<<<< HEAD
+.modal-block {
+    background-color: rgba(128, 128, 128, 0.8);
+=======
+
+.modal-block {
+    background-color: rgba(62, 62, 62, 0.8);
+>>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
+}
+.modal-block.active {
+    display: flex;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
+.modal {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    width: calc(100% - 100px);
+    max-width: 300px;
+    max-height: calc(100% - 100px);
+    overflow: auto;
+    position: relative;
+<<<<<<< HEAD
+}
+
+
+form {
+    display: grid;
+    margin-top: 16px;
+    gap: 8px;
+}
+input:note([type="checkbox"]) {
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+}
+.preview {
+    height: 200px;
+    background-color: springgreen;
+    border-radius: 8px;
+    background-image: url("images/default.png");
+    background-position: center;
+    background-size: cover;
+=======
+>>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
+}

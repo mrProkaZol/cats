@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+img {
+    width: 1000px;
+}
+
+.info {
+    display: grid;
+    gap: 18px;
+    align-content: flex-start;
+    align-items: stretch;
+}
