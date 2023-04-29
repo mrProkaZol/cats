@@ -69,10 +69,7 @@ h2 {
     /* background-size: contain; */
     background-size: auto 80%;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
 .btn {
     outline: none;
     border: none;
@@ -86,14 +83,9 @@ h2 {
 }
 .btn:hover {
     color: springgreen;
-<<<<<<< HEAD
     transform: scale(1.1, 1.1);    
 }
-=======
-    transform: scale(1.1, 1.1);
-}
 
->>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
 .add {
     position: fixed;
     bottom: 20px;
@@ -105,14 +97,8 @@ h2 {
     top: 8px;
     right: 8px;
 }
-<<<<<<< HEAD
 .modal-block {
     background-color: rgba(128, 128, 128, 0.8);
-=======
-
-.modal-block {
-    background-color: rgba(62, 62, 62, 0.8);
->>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
     backdrop-filter: blur(2px);
     position: fixed;
     top: 0;
@@ -122,18 +108,11 @@ h2 {
     display: none;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     
-=======
->>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
 }
 .modal-block.active {
     display: flex;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
 .modal {
     background-color: #fff;
     padding: 16px;
@@ -143,7 +122,6 @@ h2 {
     max-height: calc(100% - 100px);
     overflow: auto;
     position: relative;
-<<<<<<< HEAD
 }
 
 
@@ -164,6 +142,4 @@ input:note([type="checkbox"]) {
     background-image: url("images/default.png");
     background-position: center;
     background-size: cover;
-=======
->>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
 }

@@ -12,21 +12,11 @@ if(!pets) {
             }
         }
     })
-<<<<<<< HEAD
 }
-=======
->>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
-
-
 addBtn.addEventListener("click", e => {
     mdBox.classList.toggle("active");
 });
-<<<<<<< HEAD
-// editBtn.addEventListener("click", e => {
-//     mdBox.classList.toggle("active");
-// });
-=======
->>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
+
 mdClose.addEventListener("click", e => {
     mdBox.classList.remove("active");
 });
@@ -35,7 +25,6 @@ mdBox.addEventListener("click", e => {
         mdBox.classList.remove("active");
     }
 });
-<<<<<<< HEAD
 
 addForm.elements.image.addEventListener("change", e => {
     prevTag.style.backgroundImage = `url(${e.currentTarget.value})`;
@@ -90,5 +79,4 @@ addForm.addEventListener("submit", e => {
         console.log(res.status);
     })
 })
-=======
->>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
+
