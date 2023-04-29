@@ -1,6 +1,6 @@
 const block = document.querySelector(".wrapper");
 const addBtn = document.querySelector(".add");
-<<<<<<< HEAD
+
 // const editBtn = document.querySelector(".edit");
 const mdBox = document.querySelector(".modal-block");
 const mdClose = mdBox.querySelector(".modal-close");
@@ -11,14 +11,6 @@ const prevTag = addForm.querySelector(".preview");
 
 
 let name = "mrProkaZol";
-=======
-const mdBox = document.querySelector(".modal-block");
-const mdClose = mdBox.querySelector(".modal-close");
-// const mdClose = mdBox.firstElementChild;
-
-
-let name = "lk_band";
->>>>>>> 48f72756ec2d2bddd2c72f720972922f109dd8bc
 let path = `https://cats.petiteweb.dev/api/single/${name}`;
 
 /*
